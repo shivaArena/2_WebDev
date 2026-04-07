@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>basic info</legend>
+            <label for="userName">Name</label>
+            <input type="text" name="userName" id="userName" placeholder="First Name" size="45" required maxlength="" tabindex=""/>
+            <br>
+            <label for="">Email</label>
+            <input type="email" name="" id="" required>
+            <br>
+            <label for="">Password</label>
+            <input type="password" name="" id="">
+            <br>
+            <label for="">Comments</label>
+            <textarea name="" id="" cols="35" rows="5"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="">Birthday</label>
+            <input type="date">
+            <br>
+            <label for="">Gender</label>
+           <input type="radio" name="gender" checked> Male
+           <input type="radio" name="gender"> Female
+            <br>
+           <label for="">Sbilings</label>
+           <select name="" id="">
+            <option value="">-Select-</option>
+            <option value="">+1</option>
+            <option value="">+2</option>
+            <option value="">+3</option>
+           </select>
+           <br>
+           <label for="">Hobbies</label>
+           <input type="checkbox">Reading 
+           <input type="checkbox">Cooking
+           <input type="checkbox">Swimming
+           <input type="checkbox">Sleeping
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Tags</legend>
+            Range : <input type="range" name="" id="">
+            Color: <input type="color" name="" id="">
+            Date & Time : <input type="datetime-local" name="" id="">
+            Attachment : <input type="file">
+            <button>Button</button>
+        </fieldset>
+
+        <fieldset>
+            <label for="buttons">Button</label>
+            <input type="button" value="Simple Button">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

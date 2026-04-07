@@ -1,0 +1,45 @@
+/* Comments in CSS */
+/* a{color:green} */
+/* div{background-color: aquamarine;} */
+*{margin: 0;}
+/* div[class]{width: 350px; height: 350px; background-color: cadetblue;} */
+/* div[class='a']{width: 350px; height: 350px; background-color: cadetblue;} */
+#hero{height: 350px; background-color: bisque;}
+.brand{height:150px; background-color: blueviolet;}
+
+/* p{color:red} */
+
+/* div[class='a'] > h3{background-color: bisque;} */
+/* div+h3{background-color: blue;} */
+/* div~h3{background-color: gold;} */
+/* div div h3{background-color: red;} */
+
+/* h3,p,.name,#name{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;} */
+
+a:hover{background-color: green;color:white}
+
+ul li:first-child{background-color: yellow;}
+ul li:last-child{background-color: blue;}
+ul li:nth-child(4){background-color: red;}
+ul li:nth-child(odd){background-color: gold;}
+ul li:nth-child(even){background-color: gray;}
+
+body div:first-child{background-color: cadetblue;}
+body div:last-child{background-color: olivedrab;}
+
+h3::first-letter{color:red}
+p::first-line{background-color: palevioletred;}
+
+h3::before{
+    content: "This is a ";
+    color: gold;
+}
+
+h3::after{
+    content: "Ending";
+    color: red;
+}
+
+::marker{color:white}
+
+::selection{color:black; background-color: yellowgreen;}
