@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(2, 37, 37);
+    /* background-color: #804060;
+    background-color: rgb(128, 64, 96);
+    background-color: rgba(128, 64, 96, 0.5);
+    background-color: hsl(330, 33%, 38%);
+    background-color: hsla(330, 33%, 38%, 0.5); */
+
+    /* background-image: url(../images/rec.png), url(../images/bg_pat.svg); */
+    /* background-image: url(../images/rec.png); */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+
+    /* background-position: right top; */
+    /* background-position: right bottom, left bottom; */
+
+    /* background-size: 100px; */
+    /* background-size: 100%; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-blend-mode: overlay; */
+
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px red;
+    line-height: 24px;
+    color: gold */
+}
+
+/* 
+h1 {
+    letter-spacing: 10px;
+    margin-bottom: 24px;
+
+}
+
+div {
+    width: 350px;
+    /* height: auto; */
+/* height: auto; */
+/* padding: 16px; */
+/* background-color: rgb(255, 0, 0); */
+/* background-color: rgba(255, 0, 0, 0.1); */
+/* background-color: hsla(0, 100%, 50%, 0.1); */
+/* background-image: linear-gradient(45deg, red, yellow, blue) */
+/* background-image: radial-gradient(red, yellow, blue) */
+/* background-color: azure; */
+/* box-shadow: 10px 10px 30px 0px rgb(231, 198, 12); */
+/* border-radius: 16px; */
+/* border-radius: 16px 0 16px 0; */
+/* 
+}
+
+p {
+    word-spacing: 10px;
+}
+
+*/
+
+ul {
+    /* list-style-type: none; */
+    /* list-style: square; */
+    /* list-style: lower-roman; */
+    /* list-style: upper-alpha; */
+    /* list-style: lower-alpha */
+    /* list-style: number; */
+    /* list-style: url(../images/Arrow.svg); */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 8px;
+    transition: all 0.7s ease;
+}
+
+.active,
+ul li a:hover {
+    text-decoration: underline;
+    color: yellow;
+    background-color: black;
+}
