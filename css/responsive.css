@@ -1,0 +1,35 @@
+/* Mobile screen */
+@media (min-width: 360px) {
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+/* tablet */
+
+@media (min-width:768px) {
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+/* desktop */
+
+
+@media (min-width:1024px) {
+    nav {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+}
